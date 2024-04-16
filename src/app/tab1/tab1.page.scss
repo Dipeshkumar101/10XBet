@@ -1,0 +1,87 @@
+ion-header{
+    box-shadow: none;
+}
+ion-title{
+    color: #ffff;
+    background: #1E0342;
+    height: 56px;
+    
+    .headerBox{
+        display: flex;
+        justify-content: space-between;
+        .textBox{
+            font-size: 15px;
+            font-family: math;
+            width: 62%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+    
+            #signIn{
+                text-decoration: underline;
+            }
+            #register{
+                background: #FF204E;
+                padding: 6px;
+                border-radius: 4px;
+            }
+            ion-icon{
+                font-size: 31px;
+            }
+        }
+    }
+}
+
+.temp{
+    background: #1E0342;
+    padding: 10px 12px;
+    color: white;
+}
+
+.scrollableListBox{
+    background: #1E0342;
+    color: #ffff;
+    ul{
+        list-style-type: none;
+        // display: flex;
+        // justify-content: space-around;
+        width: 427px;
+        overflow-x: scroll;
+        display: flex;
+        gap: 26px;
+        padding-top: 11px;
+        margin: 0;
+       
+        li{
+            min-width: fit-content; 
+            color: #9EB8D9;
+            font-size: 14px;
+            font-weight: 700;
+            font-family: math;
+            text-transform: uppercase;
+        }
+    }
+}
+ 
+  
+::-webkit-scrollbar {
+  width: 2px; /* Adjust this value as needed */
+}
+::-webkit-scrollbar-track {
+  background: #1E0342; /* Change to your desired color */
+}
+
+/* Change the scrollbar thumb color */
+::-webkit-scrollbar-thumb {
+  background: #1E0342; /* Change to your desired color */
+}
+//   ion-content::-webkit-scrollbar {
+//     display: none;
+//   }
+//   ion-content::-webkit-scrollbar-thumb {
+//     background: #1E0342; /* Change to your desired color */
+//   }
+//   ion-content::-webkit-scrollbar-track {
+//     background: red; /* Change to your desired color */
+//   }
+    
