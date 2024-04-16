@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-
+  
+  selectedTab: string = 'tab1';
   constructor() {}
+
+  tabSelected(tab:any){
+    this.selectedTab = tab;
+    console.log(this.selectedTab)
+  }
 
 }
